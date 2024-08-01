@@ -1,0 +1,177 @@
+/*Linkdin Shayan Shah*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/main.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.info {
+  color: white;
+  font-size: 20px;
+  padding: 20px 70px;
+  cursor: pointer;
+  box-shadow: 5px 0px 10px white;
+}
+
+.info span {
+  margin: 0px 10px;
+}
+.info span i {
+  margin: 0px 5px;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 2em;
+  font-family: normal;
+  letter-spacing: 2px;
+}
+
+.logo i {
+  color: #e84393;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.menu a:last-child {
+  background: #e84393;
+  border-radius: 8px;
+}
+
+.menu a:hover {
+  background: #e84393;
+  border-radius: 8px;
+}
+
+.box {
+  background: white;
+  width: 450px;
+  height: 500px;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+form {
+  width: 100%;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 20px 10px;
+  margin: 10px 0px;
+  outline: none;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: black;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 20px 10px;
+  margin: 10px 0px;
+  outline: none;
+  border: none;
+  background: #e84393;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 8px;
+}
+
+form input[type="submit"]:hover {
+  background: transparent;
+  border: 1px solid grey;
+  color: black;
+}
+
+.box span {
+  color: #e84393;
+  cursor: pointer;
+}
+
+.htext {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  max-width: 450px;
+  color: white;
+}
+
+.htext h1 {
+  font-size: 2em;
+}
+
+.htext h2 {
+  font-size: 4em;
+}
+.htext span {
+  color: #e84393;
+}
+
+.htext p {
+  margin: 15px 0px;
+  line-height: 2em;
+}
+
+.htext a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.htext a:hover {
+  background: #e84393;
+}
+
+.htext .icons {
+  bottom: -20%;
+  position: absolute;
+}
+
+.icons i {
+  background: #e84393;
+  padding: 10px 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.icons i:hover {
+  transform: translateY(-10px);
+}
